@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+    /*ici commence le header */
+header{
+    background-color:rgb(250,181,106);
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-around;
+}
+header h1 {
+    padding-top: 7%;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-iut{
+    width:25%;
+    height: auto;
+    margin-top: 0%;
+}
+
+
+
+
+/* ici ce termine le header*/
+
+/*ici commence le menu de navigation*/
+
+#differents-onglets-du-nav summary{
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(250,185,163);
+}
+#differents-onglets-du-nav ul {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#differents-onglets-du-nav li>a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+/*fin du nav*/
+footer{
+    padding-top: 20%;
+    background-color:rgb(250,181,106); ;
+}
