@@ -15,21 +15,24 @@ header h1 {
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*ici commence le menu de navigation pour ordinateur*/
+#menu-navigation-ordinateur{
+    display: none;
+}
 
+
+/*ici ce termine le menu pour ordinateur*/
 .logo-iut{
-    width:25%;
+    width:27%;
     height: auto;
     margin-top: 0%;
 }
 
-
-
-
 /* ici ce termine le header*/
 
-/*ici commence le menu de navigation*/
+/*ici commence le menu de navigation pour téléphone*/
 
-#differents-onglets-du-nav summary{
+#menu-navigation-telephone summary{
     margin-top: 3%;
     margin-right: 10%;
     margin-left: 10%;
@@ -38,19 +41,55 @@ header h1 {
     text-align: center;
     background-color: rgb(250,185,163);
 }
-#differents-onglets-du-nav ul {
+#menu-navigation-telephone ul{
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#differents-onglets-du-nav li>a{
+#menu-navigation-telephone li>a{
     text-decoration: none;
     color: black;
     
 }
 
-/*fin du nav*/
+/*fin du nav téléphone*/
 footer{
     padding-top: 20%;
     background-color:rgb(250,181,106); ;
+}
+
+@media (min-width: 1000px) {
+    .logo-iut{
+        width: 10%;
+    }
+/*on fait en sorte que lorsqu'on passe sur ordinateur le menu téléphone disparraisse*/
+    #menu-navigation-telephone{
+        display: none;
+    }
+    #menu-navigation-ordinateur{
+        display: table-row;
+    }
+    #menu-navigation-ordinateur ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+      }
+      
+    #menu-navigation-ordinateur li {
+        float: left;
+      }
+      
+    #menu-navigation-ordinateur li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+      
+    #menu-navigation-ordinateur li a:hover {
+        background-color: #111111;
+      }
 }
