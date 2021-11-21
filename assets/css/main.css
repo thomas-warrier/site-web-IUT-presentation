@@ -2,6 +2,56 @@
     margin:0;
     padding:0;
 }
+p,ul,h2,a,img,table{
+    margin-top: 7%;
+}
+p,a{
+    font-size: 0.9rem;
+}
+ul, ol{
+    display: flex;
+	align-items: center;
+	flex-direction:column;
+    flex-wrap: wrap;
+    
+}
+li::marker{
+	text-align:right;
+}
+section li{ 
+	max-width: 90%;
+	text-align: center;
+	width:fit-content;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+	text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+section h1{
+    margin-right: 5%;
+    margin-left: 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color:rgb(186,216,214);
+}
+h2{
+    text-decoration: underline;
+    color: rgb(92,126,181);
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 125%;
+}
+
     /*ici commence le header */
 header{
     background-color:rgb(250,181,106);
@@ -28,6 +78,9 @@ header h1 {
     margin-top: 0%;
 }
 
+
+
+
 /* ici ce termine le header*/
 
 /*ici commence le menu de navigation pour téléphone*/
@@ -41,7 +94,7 @@ header h1 {
     text-align: center;
     background-color: rgb(250,185,163);
 }
-#menu-navigation-telephone ul{
+#menu-navigation-telephone ul {
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -55,7 +108,7 @@ header h1 {
 /*fin du nav téléphone*/
 footer{
     padding-top: 20%;
-    background-color:rgb(250,181,106); ;
+    background-color:rgb(250,181,106);
 }
 
 @media (min-width: 1000px) {
@@ -68,6 +121,7 @@ footer{
     }
     #menu-navigation-ordinateur{
         display: table-row;
+        background-color:rgb(250,181,106);
     }
     #menu-navigation-ordinateur ul {
         list-style-type: none;
@@ -75,11 +129,11 @@ footer{
         padding: 0;
         overflow: hidden;
         background-color: #333333;
-      }
+    }
       
     #menu-navigation-ordinateur li {
         float: left;
-      }
+    }
       
     #menu-navigation-ordinateur li a {
         display: block;
@@ -91,5 +145,26 @@ footer{
       
     #menu-navigation-ordinateur li a:hover {
         background-color: #111111;
-      }
+    }
+    p,ul,h2,a,img{
+        margin-top: 2%;
+    }
+    p,a{
+        font-size: 1.1rem;
+    }
+    section li{
+        margin-top: 1%;
+        font-size: 1.1rem;
+    }
+    body:not(#les-grandes-lignes){
+        background-color: #eee;
+    }
+    section{
+        margin-left: 15%;
+        margin-right: 15%;
+        background-color: white ;
+    }
+    footer{
+        padding-top: 7%;
+    }
 }

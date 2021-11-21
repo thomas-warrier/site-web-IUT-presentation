@@ -1,50 +1,35 @@
-ul, ol{
-    display: flex;
-	align-items: center;
-	flex-direction:column;
-    flex-wrap: wrap;
-    
-}
-li::marker{
-	text-align:right;
-}
-section li{ 
-	max-width: 90%;
-	text-align: center;
-	width:fit-content;
+
+/*Page 3 (Le campus)*/
+#menu-rapide summary{
     margin-top: 3%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.9rem;
-}
-
-section{
-    display: flex;
-    flex-direction: column;
-    padding: 5%;
-	text-align: center;
-
-    font-family: Arial, Helvetica, sans-serif;
-}
-section h1{
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
     border: 2px solid black;
     border-radius: 10px;
     text-align: center;
-    background-color:rgb(186,216,214);
+    background-color: rgb(250,185,163);
 }
-h2{
-    text-decoration: underline;
-    color: rgb(92,126,181);
-    margin-right: 5%;
-    margin-left: 5%;
-    text-align: center;
-    font-size: 125%;
-}
-p,ul,h2,a,img{
-    margin-top: 7%;
-}
-p,a{
-    font-size: 0.9rem;
+#menu-rapide ul {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+#menu-rapide li>a{
+    text-decoration: none;
+    color: black;
+}
+table {
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    width:100%;
+    }
+td { 
+    font-size: 65%;
+    border-width:1px;
+    border-style:solid; 
+    border-color:black;
+    width:100%;
+}
+@media (min-width: 1000px) {
+}
