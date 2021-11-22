@@ -54,8 +54,6 @@ h2{
 
     /*ici commence le header */
 header{
-    margin: 0%;
-    padding: 0%;
     background-color:rgb(250,181,106);
     display: flex;
     flex-direction: row;
