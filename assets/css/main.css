@@ -105,20 +105,32 @@ header h1 {
 
 /*fin du nav téléphone*/
 footer{
-    padding-top: 20%;
+    padding-top: 7%;
+    padding-bottom: 5%;
     background-color:rgb(250,181,106);
+    text-align: center;
 }
 
 @media (min-width: 1000px) {
-    .logo-iut{
-        width: 10%;
-    }
 /*on fait en sorte que lorsqu'on passe sur ordinateur le menu téléphone disparraisse*/
     #menu-navigation-telephone{
         display: none;
     }
+    header{
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr ;
+        grid-gap: 1%;
+        margin: 0%;
+        padding: 1%;
+    }
+    header h1{
+        margin-left: 15%;
+    }
     #menu-navigation-ordinateur{
-        display: table-row;
+        padding: 0%;
+        margin: 0%;
+        padding-left: 8%;
+        display:inline;
         background-color:rgb(250,181,106);
     }
     #menu-navigation-ordinateur ul {
@@ -131,6 +143,7 @@ footer{
     #menu-navigation-ordinateur li a {
         display: block;
         color: black;
+        font-size: 90%;
         text-align: center;
         padding: 10px;
         text-decoration: none;
@@ -138,6 +151,10 @@ footer{
       
     #menu-navigation-ordinateur li a:hover {
         background-color:rgb(247, 167, 83);
+    }
+    .logo-iut{
+        width: 50%;
+
     }
     #les-grandes-lignes,#débouchés,#Le-campus,#events{
         margin-top: 2%;
@@ -160,8 +177,5 @@ footer{
         margin-left: 15%;
         margin-right: 15%;
         background-color: white ;
-    }
-    footer{
-        padding-top: 7%;
     }
 }
