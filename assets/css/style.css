@@ -18,22 +18,6 @@
     text-decoration: none;
     color: black;
 }
-table {
-    border-width:1px; 
-    border-style:solid; 
-    border-color:black;
-    width:100%;
-    }
-th{
-    font-size: 60%;
-}
-td { 
-    font-size: 60%;
-    border-width:1px;
-    border-style:solid; 
-    border-color:black;
-    width:100%;
-}
 
 @media (min-width: 1000px) {
     #contact{
@@ -47,3 +31,45 @@ td {
         font-size: 100%;
     }
 }
+
+/*page 4*/
+table
+{
+	border-collapse : collapse;
+	border : 0.12em black solid;
+}
+td
+{
+	border : 0.07em black solid;
+	padding: 0.5em;
+	
+}
+th
+{
+	border-right: 0.07em black solid;
+	border-left: 0.07em black solid;
+	padding: 0.5em;
+}
+td[rowspan]+td, td[rowspan]
+{
+	border-top: 0.12em black solid;
+}
+.parcours1
+{
+	background-color: #87CEEB;
+}
+.parcours2
+{
+	background-color: #90EE90;
+}
+.parcours3
+{
+	background-color: #FFA500;
+}
+
+
+/*td[rowspan]:first-child
+{
+	background-color: #90EE90;
+	
+}*/
