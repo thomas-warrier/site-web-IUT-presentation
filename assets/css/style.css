@@ -46,4 +46,7 @@ td {
     td,th{
         font-size: 100%;
     }
+    #BDE,#restaurants-universitaires,#Etudes-etranger,#SSU,#Theatre,#sport-et-langue{
+        margin: 3%;
+    }
 }

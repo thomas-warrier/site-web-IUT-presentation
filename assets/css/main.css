@@ -179,4 +179,22 @@ footer{
         margin-right: 15%;
         background-color: white ;
     }
+    footer{
+        padding-top: 0%;
+        padding-bottom:0%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 2fr;
+    }
+    footer section{
+        background-color:rgb(250,181,106);
+    }
+    #Mails,#Numeros{
+        padding:0%;
+        padding-bottom:3%;
+    }
+    h2{
+        
+        grid-area: 1/1/1/span 2;
+    }
 }
