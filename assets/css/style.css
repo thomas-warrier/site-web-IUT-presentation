@@ -30,6 +30,7 @@
     td,th{
         font-size: 100%;
     }
+
 }
 
 /*page 4*/
@@ -73,3 +74,9 @@ td[rowspan]+td, td[rowspan]
 	background-color: #90EE90;
 	
 }*/
+
+    #BDE,#restaurants-universitaires,#Etudes-etranger,#SSU,#Theatre,#sport-et-langue{
+        margin: 3%;
+    }
+}
+
