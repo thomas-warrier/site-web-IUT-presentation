@@ -18,21 +18,30 @@
     text-decoration: none;
     color: black;
 }
-table {
+
+.couleur1
+{
+	background-color: #87CEEB;
+}
+.couleur2
+{
+	background-color: #90EE90;
+}
+.couleur3
+{
+	background-color: #FFA500;
+}
+tr,table,th,td{
+    border-collapse:collapse;
     border-width:1px; 
     border-style:solid; 
     border-color:black;
     width:100%;
-    }
-th{
-    font-size: 60%;
 }
-td { 
+
+th,td{
     font-size: 60%;
-    border-width:1px;
-    border-style:solid; 
-    border-color:black;
-    width:100%;
+    padding: 0.5em;
 }
 
 @media (min-width: 1000px) {
@@ -45,8 +54,11 @@ td {
     }
     td,th{
         font-size: 100%;
+        padding: 1rem;
     }
+
     #BDE,#restaurants-universitaires,#Etudes-etranger,#SSU,#Theatre,#sport-et-langue{
         margin: 3%;
     }
 }
+

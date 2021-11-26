@@ -110,6 +110,12 @@ footer{
     background-color:rgb(250,181,106);
     text-align: center;
 }
+footer .lien,#Mails,#Numeros{
+    color: black;
+}
+footer h2{
+    color: black; 
+}
 
 @media (min-width: 1000px) {
 /*on fait en sorte que lorsqu'on passe sur ordinateur le menu téléphone disparraisse*/
@@ -189,12 +195,12 @@ footer{
     footer section{
         background-color:rgb(250,181,106);
     }
+
     #Mails,#Numeros{
         padding:0%;
         padding-bottom:3%;
     }
-    h2{
-        
+    footer h2{
         grid-area: 1/1/1/span 2;
     }
 }
