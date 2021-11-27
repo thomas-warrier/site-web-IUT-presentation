@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
 }
-p,ul,h2,a,img,table{
+p,ul,a,img,table{
     margin-top: 7%;
 }
 p,a{
@@ -43,9 +43,9 @@ h1:not(header h1){
     text-align: center;
     background-color:rgb(186,216,214);
 }
-h2{
+h2,h3{
     text-decoration: underline;
-    color: rgb(92,126,181);
+    color: #4B0082;
     margin-right: 5%;
     margin-left: 5%;
     text-align: center;
@@ -149,6 +149,7 @@ footer{
         padding: 10px;
         text-decoration: none;
       }
+
       
     #menu-navigation-ordinateur li a:hover {
         background-color:rgb(247, 167, 83);
@@ -188,13 +189,26 @@ footer{
     }
     footer section{
         background-color:rgb(250,181,106);
-    }
+		display: flex;
+		
+	}
     #Mails,#Numeros{
         padding:0%;
         padding-bottom:3%;
-    }
-    h2{
-        
+    }}
+    footer h2{
+        color: #4B0082;
         grid-area: 1/1/1/span 2;
+		
     }
-}
+	footer a
+	{
+		text-decoration:none;
+		color: black;
+		margin: 0.3em;
+		
+	}
+	footer a:visited
+	{
+		color: black;
+	}
