@@ -150,6 +150,7 @@ button:first-child
 	{
 		background-color:#4B0082;
 		color:#FFFFFF;
+		grid-area
 	}
 	button:last-child
 	{
@@ -158,6 +159,7 @@ button:first-child
 	}
 	button
 	{
+		
 		border-radius:0.4em;
 		border-color:#4B0082;
 		padding-left:3em;
@@ -187,13 +189,11 @@ button:first-child
 	}
 	fieldset:last-child
 	{
-		display: flex;
-		flex-direction: row;
 		display: grid;
-		gap: 0% 1%;
-		grid: 1fr/ 106% 55%;
+		grid: 1fr/1fr 1fr;
 		margin-left:1.3em;
-		margin-right:0.5em;
+		margin-right:0.3em;
+		
 	}
-	
+
 }
