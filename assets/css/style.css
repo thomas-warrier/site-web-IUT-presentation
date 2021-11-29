@@ -1,4 +1,7 @@
-
+.programme-img{
+	width: 60%;
+	margin-left: 20%;
+}
 /*Page 3 (Le campus)*/
 #menu-rapide summary{
     margin-top: 3%;
@@ -101,7 +104,7 @@ input:not(p input), textarea
 	border-radius:0.4em;
 	height:2em;
 }
-fieldset:last-child{
+#boutton fieldset{
     border:none;
     display: grid;
     grid-column: 1fr 1fr;
