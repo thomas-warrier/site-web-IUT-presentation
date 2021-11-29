@@ -108,37 +108,41 @@
 	
 	<section id="question">
 	<h1>Une question ? <br /> <span class="subtitle">Dites-nous !</span></h1>
-	<form method="post" action="">
-	<fieldset>
-		<legend> Identité</legend>
-	
-		<label>Nom<input type="text" name="nom"></label>
-		<label>Prénom<input type="text" name="prénom"></label>
-	
-	<p> Statut
-		<label><input type="radio" name="statut">Etudiant/lycéen</label>
-		<label><input type="radio" name="statut">Parent</label>
-		<label><input type="radio" name="statut">Professionnel</label>
-	</p>	
-	</fieldset>
-		
-	<fieldset>
-		<legend>Contact</legend>
-		<label title="entrez une adresse mail dont vous êtes sûr qu'elle est valide">
-		Adresse Mail <input type="email" name="mail"></label>
-	</fieldset>	
-	
-	<fieldset>
-		<legend>Message</legend>
-		<label for="message">Votre question</label> 
-            <textarea id="message" ></textarea>
-	</fieldset>
-	
-		<button type="submit" formmethod="POST">Valider</button>
-		<button type="reset">Réinitialiser</button>
-	
-	</form>
+	<section id="questionnaire">
+			<form method="get" action="http://champin.net/enseignement/intro-web/_static/formproc/debug">
+				<fieldset>
+					<legend> Identité</legend>
+				
+					<label>Nom<input type="text" name="nom"></label>
+					<label>Prénom<input type="text" name="prénom"></label>
+				
+				<p> Statut
+					<label><input type="radio" name="statut">Etudiant/lycéen</label>
+					<label><input type="radio" name="statut">Parent</label>
+					<label><input type="radio" name="statut">Professionnel</label>
+				</p>	
+				</fieldset>
+					
+				<fieldset>
+					<legend>Contact</legend>
+					<label title="entrez une adresse mail dont vous êtes sûr qu'elle est valide">
+					Adresse Mail <input type="email" name="mail"></label>
+				</fieldset>	
+				
+				<fieldset>
+					<legend>Message</legend>
+					<label for="message">Votre question</label> 
+						<textarea id="message" ></textarea>
+				</fieldset>
 	</section>
+	<section id="boutton">
+		<fieldset>
+			<button type="submit" formmethod="POST">Valider</button>
+			<button type="reset">Réinitialisation</button>
+		</fieldset>
+	</section>
+		</form>
+		</section>
 	
 	<footer>
 		<h2>Restons en contact !</h2>

@@ -44,6 +44,92 @@ th,td{
     padding: 0.5em;
 }
 
+/*page 4*/
+
+#questionnaire
+{
+    padding:0%;
+	display: grid;
+	gap: 1.5% 1%;
+}
+form fieldset
+{
+	text-align: left;
+	padding: 3%;
+	border-radius:0.4em;
+}
+form fieldset:first-child
+{
+	display: flex;
+	display: grid;
+	grid: 1fr 1fr/ 45% 45%;
+	flex-direction: column;
+	grid-area: 1/1/1/span 2;
+}
+form fieldset:nth-child(2)
+{
+	grid-area: 2/1/2/span 2;
+}
+form fieldset:nth-child(3)
+{
+	grid-area: 3/1/3/span 2;
+	display: flex;
+	flex-direction:column;
+}
+fieldset p
+{
+	display: flex;
+	flex-direction:column;
+	margin-top:0em;
+	grid-area: 3/2/1/span 2;
+}
+p label
+{
+	padding-left: 1.5em;
+	width:70%;
+}
+label:not(p label)
+{
+	display: flex;
+	flex-direction:column;
+}
+input:not(p input), textarea
+{
+	margin-left:1.5em;
+	margin-right:0.5em;
+	width: 55%;
+	border-radius:0.4em;
+	height:2em;
+}
+fieldset:last-child{
+    border:none;
+    display: grid;
+    grid-column: 1fr 1fr;
+    
+}
+button:first-child
+	{
+		background-color:#4B0082;
+		color:#FFFFFF;
+	}
+	button:last-child
+	{
+        grid-row: 1/3;
+		background-color:#FFFFFF;
+		color:#4B0082;
+	}
+	button
+	{
+		
+		border-radius:0.4em;
+		border-color:#4B0082;
+		padding-left:12%;
+		padding-right:12%;
+		padding-bottom:7%;
+		padding-top:7%;
+	}
+
+
 @media (min-width: 1000px) {
     #contact{
         padding-top: 0.5rem;
@@ -60,5 +146,31 @@ th,td{
     #BDE,#restaurants-universitaires,#Etudes-etranger,#SSU,#Theatre,#sport-et-langue{
         margin: 3%;
     }
+    /*page 4*/
+    form fieldset:first-child
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	input:not(p input), textarea
+	{
+		width: 90%
+	}
+	fieldset
+	{
+		border:none;
+	}
+	legend
+	{
+		display:none;
+	}
+	fieldset:last-child
+	{
+		display: grid;
+		grid: 1fr/1fr 1fr;
+		margin-left:1.3em;
+		margin-right:0.3em;
+		
+	}
 }
 
