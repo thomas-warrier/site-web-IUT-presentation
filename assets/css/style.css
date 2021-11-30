@@ -22,17 +22,27 @@
     color: black;
 }
 
-.couleur1
+.parcour1
 {
 	background-color: #87CEEB;
 }
-.couleur2
+.parcour2
 {
 	background-color: #90EE90;
 }
-.couleur3
+.parcour3
 {
 	background-color: #FFA500;
+}
+.couleur1{
+	background-color:violet;
+}
+.couleur2{
+	background-color:mediumaquamarine;
+}
+.couleur3{
+	background-color:mediumturquoise;
+
 }
 tr,table,th,td{
     border-collapse:collapse;
