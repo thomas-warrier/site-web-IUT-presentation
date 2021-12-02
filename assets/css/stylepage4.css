@@ -1,0 +1,137 @@
+
+/*#questionnaire
+{
+    padding:0%;
+	display: grid;
+	gap: 1.5% 1%;
+}*/
+form fieldset
+{
+	text-align: left;
+	padding: 4%;
+	border-radius:0.4em;
+    margin-block-end: 2%;
+}
+
+/*form fieldset:nth-child(2)
+{
+	grid-area: 2/1/2/span 2;
+}*/
+
+form fieldset:first-child
+{
+	display: flex;
+	display: grid;
+	grid: 1fr 1fr/ 60% 30%;
+	flex-direction: column;
+	grid-area: 1/1/1/span 2;
+}
+
+fieldset:last-child
+{
+	
+	display: flex;
+    align-items: flex-start;
+    gap: 0% 1%;
+    border:none;
+    padding-left: 0%;
+}
+fieldset p
+{
+	display: flex;
+	flex-direction:column;
+	margin-top:0em;
+	grid-area: 3/2/1/span 2;
+    font-size: 1em;
+}
+p label
+{
+	padding-left: 1.5em;
+	width:70%;
+}
+label:not(p label)
+{
+	display: flex;
+	flex-direction:column;
+}
+input:not(p input), textarea
+{
+	margin-left:1.5em;
+	width: 65%;
+	border-radius:0.4em;
+	height:2em;
+}
+textarea
+{
+    max-width:222px;
+    max-height:75px;
+}
+/*#boutton fieldset{
+    border:none;
+    display: grid;
+    grid-column: 1fr 1fr;
+    
+}*/
+button:first-child
+	{
+		background-color:#4B0082;
+		color:#FFFFFF;
+	}
+	button:last-child
+	{
+        grid-row: 1/3;
+		background-color:#FFFFFF;
+		color:#4B0082;
+	}
+	button
+	{
+		
+		border-radius:0.4em;
+		border-color:#4B0082;
+        width: 150px;
+		padding:1.5%;
+	}
+
+
+@media (max-width: 1024px) {
+    /*#contact{
+        padding-top: 0.5rem;
+        text-align: center;
+    }
+    #contact p,h3{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #BDE,#restaurants-universitaires,#Etudes-etranger,#SSU,#Theatre,#sport-et-langue{
+        margin: 3%;
+    }}
+    /*page 4*/
+
+    /*form fieldset:first-child
+{
+	display: flex;
+	display: grid;
+	grid: 1fr 1fr/ 45% 45%;
+	flex-direction: column;
+	grid-area: 1/1/1/span 2;
+}*/
+    form fieldset:first-child
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	input:not(p input), textarea
+	{
+        width:90%;
+	}
+	fieldset
+	{
+		border:none;
+	}
+	legend
+	{
+		display:none;
+	}
+
+}
+
