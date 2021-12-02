@@ -1,0 +1,159 @@
+.parcours1
+{
+	background-color: #87CEEB;
+}
+.parcours2
+{
+	background-color: #90EE90;
+}
+.parcours3
+{
+	background-color: #FFA500;
+}
+/*.couleur1{
+	background-color:violet;
+}
+.couleur2{
+	background-color:mediumaquamarine;
+}
+.couleur3{
+	background-color:mediumturquoise;
+
+}*/
+
+table
+{
+	border-collapse : collapse;
+	border : 0.12em black solid;
+    font-size: 1em;
+
+}
+
+td
+{
+	border : 0.07em black solid;
+	padding: 0.5em;
+}
+th
+{
+	border-right: 0.07em black solid;
+	border-left: 0.07em black solid;
+	padding: 0.5em;
+    border-bottom: 0.12em black solid;
+    min-width: none;
+}
+td[rowspan]+td, td[rowspan]
+{
+	border-top: 0.12em black solid;
+}
+
+h2{
+    margin-top: 0%;
+}
+
+p
+{
+    font-size: 1em;
+}
+
+
+/*#comparaison th
+{
+    background-color: #be8fe0;
+}*/
+
+
+/*th,td{
+    font-size: 60%;
+    padding: 0.5em;
+}*/
+
+@media (max-width:1024px)
+{
+   #comp tr
+    {
+        display:grid;
+        grid: 1fr 1fr/1fr 1fr 1fr;
+    }
+    #comp td:first-child, th:first-child
+    {
+        grid-area: 1/1/2/span3;
+    }
+    #comp td:nth-child(2)
+    {
+	color:#0eaeeed0;
+    }
+    #comp td:nth-child(3)
+    {
+	color:#24d824c0;
+    }
+    #comp td:nth-child(4)
+    {
+	color:#ffa600de;
+    }
+
+
+    #comparaison tr
+    {
+        display:grid;
+        grid: 1fr 1fr/1fr 1fr;
+    }
+    #comparaison td:first-child
+    {
+        grid-area: 1/1/2/span 2;
+        font-weight: bold;
+    }
+    #comparaison th:not(:first-child)
+    {
+        font-weight: lighter;
+    }
+    #comparaison th:nth-child(2)
+    {
+        background-color: rgb(206, 156, 206);
+    }
+    #comparaison th:nth-child(3)
+    {
+        background-color: rgb(245, 161, 66);
+    }
+
+
+    #débouchés tr
+    {
+        display:grid;
+        grid: /1fr 1fr;
+    }
+    #débouchés th
+    {
+        display: none;
+    }
+    #débouchés td:first-child[rowspan]
+    {
+        border-right: none;
+        display: grid;
+      
+    }
+    #débouchés td:nth-child(2)
+    {
+        font-weight:bold;   
+        grid-area: 1/2/1/3;
+        border-left: none;
+        text-align: left;
+    }
+    .parcours1+td
+    {
+        color:#0eaeeed0;
+    }
+    .parcours2+td
+    {
+        color:#24d824c0;
+    }
+    .parcours3+td
+    {
+        color:#ffa600de;
+    }
+    #débouchés td:nth-child(3)
+    {
+        grid-area: 2/1/2/span 2;
+    }
+
+}

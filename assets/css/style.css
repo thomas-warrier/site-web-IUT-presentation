@@ -22,6 +22,8 @@
     color: black;
 }
 
+/*page2*/
+
 .parcour1
 {
 	background-color: #87CEEB;
@@ -49,10 +51,9 @@ tr,table,th,td{
     border-width:1px; 
     border-style:solid; 
     border-color:black;
-    width:100%;
 }
 
-th,td{
+/*th,td{
     font-size: 60%;
     padding: 0.5em;
 }
@@ -151,14 +152,11 @@ button:first-child
     #contact p,h3{
         font-family: Arial, Helvetica, sans-serif;
     }
-    td,th{
-        font-size: 100%;
-		padding:1rem
-    }
+    
 
     #BDE,#restaurants-universitaires,#Etudes-etranger,#SSU,#Theatre,#sport-et-langue{
         margin: 3%;
-    }
+    }}
     /*page 4*/
     form fieldset:first-child
 	{

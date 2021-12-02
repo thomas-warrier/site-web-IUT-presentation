@@ -5,9 +5,9 @@
 p,ul,h2,a,img,table{
     margin-top: 7%;
 }
-p,a{
+/*p,a{
     font-size: 0.9rem;
-}
+}*/
 ul,ol{
     display: flex;
 	align-items: center;
