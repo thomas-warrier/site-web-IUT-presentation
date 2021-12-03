@@ -85,6 +85,7 @@ header ul{
 /*ici commence le menu de navigation pour téléphone*/
 
 #menu-navigation-telephone summary{
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 3%;
     margin-right: 10%;
     margin-left: 10%;
@@ -149,6 +150,7 @@ footer h2{
     }
       
     #menu-navigation-ordinateur li a {
+        font-family: Arial, Helvetica, sans-serif;
         display: block;
         color: black;
         font-size: 90%;
