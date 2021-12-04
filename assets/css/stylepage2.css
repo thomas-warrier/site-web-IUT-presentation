@@ -10,23 +10,12 @@
 {
 	background-color: #FFA500;
 }
-/*.couleur1{
-	background-color:violet;
-}
-.couleur2{
-	background-color:mediumaquamarine;
-}
-.couleur3{
-	background-color:mediumturquoise;
-
-}*/
 
 table
 {
 	border-collapse : collapse;
 	border : 0.12em black solid;
     font-size: 1em;
-
 }
 
 td
@@ -55,18 +44,12 @@ p
 {
     font-size: 1em;
 }
-
-
-/*#comparaison th
+table+ul
 {
-    background-color: #be8fe0;
-}*/
+    display: grid;
+    list-style-type: none;
+}
 
-
-/*th,td{
-    font-size: 60%;
-    padding: 0.5em;
-}*/
 
 @media (max-width:1024px)
 {

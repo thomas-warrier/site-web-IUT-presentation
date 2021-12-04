@@ -1,10 +1,5 @@
+/*le formulaire*/
 
-/*#questionnaire
-{
-    padding:0%;
-	display: grid;
-	gap: 1.5% 1%;
-}*/
 form fieldset
 {
 	text-align: left;
@@ -12,12 +7,6 @@ form fieldset
 	border-radius:0.4em;
     margin-block-end: 2%;
 }
-
-/*form fieldset:nth-child(2)
-{
-	grid-area: 2/1/2/span 2;
-}*/
-
 form fieldset:first-child
 {
 	display: flex;
@@ -26,7 +15,6 @@ form fieldset:first-child
 	flex-direction: column;
 	grid-area: 1/1/1/span 2;
 }
-
 fieldset:last-child
 {
 	
@@ -61,36 +49,55 @@ input:not(p input), textarea
 	border-radius:0.4em;
 	height:2em;
 }
+/*input:focus, textarea:focus
+{
+	color:#4B0082;
+}*/
 textarea
 {
     max-width:222px;
     max-height:75px;
 }
-/*#boutton fieldset{
-    border:none;
-    display: grid;
-    grid-column: 1fr 1fr;
-    
-}*/
+
+/*boutons*/
+
 button:first-child
-	{
-		background-color:#4B0082;
-		color:#FFFFFF;
-	}
-	button:last-child
-	{
-        grid-row: 1/3;
-		background-color:#FFFFFF;
-		color:#4B0082;
-	}
-	button
-	{
-		
-		border-radius:0.4em;
-		border-color:#4B0082;
-        width: 150px;
-		padding:1.5%;
-	}
+{
+	background-color:#4B0082;
+	color:#FFFFFF;	
+}
+button:first-child:hover
+{
+	background-color:#3a0163;
+}
+button:last-child:hover
+{
+    background-color:#d8d8d8ef;
+}
+button:last-child
+{
+    grid-row: 1/3;
+	background-color:#FFFFFF;
+	color:#4B0082;
+}
+button
+{	
+	border-radius:0.4em;
+	border-color:#4B0082;
+    width: 150px;
+	padding:1.5%;
+    box-shadow: rgba(14,30,37,0.32)2px 4px inset;
+    box-shadow: rgba(14,30,37,0.32) 0px 2px 4px 0px;
+}
+button:hover
+{
+	border-color:#3a0163f8;
+    box-shadow: rgba(0,0,0,0.2) 0px 20px 30px;
+    font-size: 1.07em;
+}
+    
+/*les adresses de la page 4*/
+
     div
     {
         display:flex;
@@ -99,11 +106,22 @@ button:first-child
     }
     div address
     {
-        border: 1px solid black;
+        background-color: rgb(250,181,106);
         padding: 1.2em;
         margin-top:1.5%;
         border-radius:0.4em;
         width:165px;
+        display:grid;
+        grid:1fr 2fr/1fr;
+        transition: all .2s ease-in;
+        box-shadow: rgba(14,30,37,0.32) 0px 2px 4px 0px;
+
+    }
+    div address:hover
+    {
+        background-color: orange;
+        font-size: 1.07em;
+        box-shadow: rgba(0,0,0,0.2) 0px 20px 30px;
     }
     div h3
     {
@@ -113,27 +131,9 @@ button:first-child
 
 
 @media (max-width: 1024px) {
-    /*#contact{
-        padding-top: 0.5rem;
-        text-align: center;
-    }
-    #contact p,h3{
-        font-family: Arial, Helvetica, sans-serif;
-    }
+    
+    /*Le formulaire responsive*/
 
-    #BDE,#restaurants-universitaires,#Etudes-etranger,#SSU,#Theatre,#sport-et-langue{
-        margin: 3%;
-    }}
-    /*page 4*/
-
-    /*form fieldset:first-child
-{
-	display: flex;
-	display: grid;
-	grid: 1fr 1fr/ 45% 45%;
-	flex-direction: column;
-	grid-area: 1/1/1/span 2;
-}*/
     form fieldset:first-child
 	{
 		display: flex;
@@ -151,7 +151,28 @@ button:first-child
 	{
 		display:none;
 	}
+   
+    /*les adresses responsive*/
 
-
+    div
+    {
+        display:grid;
+        grid: 1fr 1fr 1fr/1fr 1fr 1fr;
+        gap: 1% 0%;
+        margin-top: 2%;
+        
+    }
+    div address:first-child
+    {
+        grid-area: 1/2/2/3;
+    }
+    div address:nth-child(2)
+    {
+        grid-area: 2/2/3/3;
+    }
+    div address:nth-child(3)
+    {
+        grid-area: 3/2/4/3;
+    }
 }
 
