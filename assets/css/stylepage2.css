@@ -35,6 +35,10 @@ td[rowspan]+td, td[rowspan]
 {
 	border-top: 0.12em black solid;
 }
+caption
+{
+    background-color: rgb(223, 221, 221);
+}
 
 h2{
     margin-top: 0%;
