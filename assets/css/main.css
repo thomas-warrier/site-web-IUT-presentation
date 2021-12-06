@@ -136,7 +136,7 @@ header h1 {
     text-align: center;
     background-color: rgb(250,185,163);
 }*/
-details summary
+#menu-navigation-telephone summary
 {
     font-size: 2em;
     text-align: left;
@@ -146,7 +146,7 @@ details summary
     background-color: rgb(250,181,106);
     color: black;
 }
-details summary:hover
+#menu-navigation-telephone summary:hover
 {
     background-color: rgb(250,181,106) ;
     color: white;
