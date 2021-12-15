@@ -98,28 +98,28 @@ button:hover
     
 /*les adresses de la page 4*/
 
-    div address
-    {
-        background-color: rgb(250,181,106);
-        padding: 1.2em;
-        margin-top:1.5%;
-        border-radius:0.4em;
-        width:190px;
-        transition: all .2s ease-in;
-        box-shadow: rgba(14,30,37,0.32) 0px 2px 4px 0px;
-
-    }
-    div address:hover
-    {
-        background-color: orange;
-        font-size: 1.07em;
-        box-shadow: rgba(0,0,0,0.2) 0px 20px 30px;
-    }
-    address:not(div address)
-    {
-        padding: 4%;
-    }
-.lieux{
+div address
+{
+    background-color: rgb(250,181,106);
+    padding: 1.2em;
+    margin-top:1.5%;
+    border-radius:0.4em;
+    width:190px;
+    transition: all .2s ease-in;
+    box-shadow: rgba(14,30,37,0.32) 0px 2px 4px 0px;
+}
+div address:hover
+{
+    background-color: orange;
+    font-size: 1.07em;
+    box-shadow: rgba(0,0,0,0.2) 0px 20px 30px;
+}
+address:not(div address)
+{
+    padding: 4%;
+}
+.lieux
+{
     display: flex;
     width:100%;
     flex-wrap: wrap;
@@ -127,12 +127,13 @@ button:hover
     justify-content: center;
     gap:2vw;
 }
-.lieux > div{
+.lieux > div
+{
     display: block;
 }
 
-@media (max-width: 1024px) {
-    
+@media (max-width: 1024px) 
+{
     /*Le formulaire responsive*/
 
     form fieldset:first-child
@@ -152,14 +153,6 @@ button:hover
 	{
 		display:none;
 	}
-   
-    /*les adresses responsive*/
-
-}
-iframe
-{
-    max-width: 100%;
-    display: flex;
 }
 
 #salon, #roanne, #portesouv
@@ -176,9 +169,15 @@ iframe
     font-size: 125%;
 }
 
+/*carte*/
 #salon details
 {
     background-color: #4B0082;
     color: rgb(255, 255, 255);
     padding: 0%;
+}
+iframe
+{
+    max-width: 100%;
+    display: flex;
 }

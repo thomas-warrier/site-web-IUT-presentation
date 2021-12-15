@@ -1,3 +1,5 @@
+/*tous les tableaux*/
+
 .parcours1
 {
 	background-color: #87CEEB;
@@ -10,14 +12,12 @@
 {
 	background-color: #FFA500;
 }
-
 table
 {
 	border-collapse : collapse;
 	border : 0.12em black solid;
     font-size: 1em;
 }
-
 td
 {
 	border : 0.07em black solid;
@@ -29,7 +29,6 @@ th
 	border-left: 0.07em black solid;
 	padding: 0.5em;
     border-bottom: 0.12em black solid;
-   
 }
 td[rowspan]+td, td[rowspan]
 {
@@ -39,11 +38,11 @@ caption
 {
     background-color: rgb(223, 221, 221);
 }
+/*fin tous les tableaux*/
 
 h2{
     margin-top: 0%;
 }
-
 p
 {
     font-size: 1em;
@@ -57,6 +56,7 @@ table+ul
 
 @media (max-width:1024px)
 {
+    /*tableau 3*/
    #comp tr
     {
         display:grid;
@@ -79,7 +79,7 @@ table+ul
 	color:#ffa600de;
     }
 
-
+    /*tableau 2*/
     #comparaison tr
     {
         display:grid;
@@ -103,7 +103,7 @@ table+ul
         background-color: rgb(245, 161, 66);
     }
 
-
+    /*tableau 1*/
     #débouchés tr
     {
         display:grid;
@@ -117,7 +117,6 @@ table+ul
     {
         border-right: none;
         display: grid;
-      
     }
     #débouchés td:nth-child(2)
     {
