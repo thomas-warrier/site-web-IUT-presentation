@@ -1,0 +1,297 @@
+*{
+    margin:0;
+    padding:0;
+    line-height: 1.35em;
+}
+p,ul,h2,a,img,table{
+    margin-top: 7%;
+}
+ul,ol{
+    display: flex;
+	align-items: center;
+	flex-direction:column;
+    flex-wrap: wrap;
+    
+}
+li::marker{
+	text-align:right;
+}
+section li{ 
+	max-width: 90%;
+	text-align: center;
+	width:fit-content;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+	text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+section h1{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color:rgb(186,216,214);
+}
+h1
+{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h2{
+    color:#4B0082 ;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 145%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+    /*ici commence le header */
+header{
+    padding:3%;
+    background-color:rgb(250,181,106);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+header h1 {
+    padding-top: 10%;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(82, 82, 82);
+}
+
+/*Menu pour ordinateur*/
+
+@media (min-width: 1024px) 
+{
+    /*on fait en sorte que lorsqu'on passe sur ordinateur le menu téléphone disparraisse*/
+    #menu-navigation-telephone{
+        display: none;
+    }
+    header{
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr ;
+        grid-gap: 1%;
+        margin: 0%;
+        padding: 1%;
+    }
+    header h1{
+        margin-left: 15%;
+        margin-bottom: 3%;
+        font-size: 1.5rem;
+    }
+    header ul{
+        padding: 0%;
+        margin: 0%;
+        padding-left: 8%;
+        display:inline;
+        background-color:rgb(250,181,106);
+    }
+    #menu-navigation-ordinateur ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;            
+    }
+    #menu-navigation-ordinateur li a {
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        color: black;
+        font-size: 1em;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        transition: all .1s linear;
+    }
+    #menu-navigation-ordinateur li a:hover 
+    {
+        background-color: #7731aa;
+        font-size: 1.1em;
+        color: white;
+        box-shadow: rgba(0,0,0,0.2) 0px 20px 30px;
+    }
+    .logo-iut{
+        width: 50%;
+        grid-area: 1/3/2/4;
+    }
+}
+/*Fin menu pour ordinateur*/
+
+.logo-iut{
+    width:95%;
+    height: auto;
+    grid-area:1/2/2/3;
+}
+/* ici ce termine le header*/
+
+/*ici commence le menu de navigation pour téléphone*/
+#menu-navigation-telephone summary
+{
+    font-size: 2em;
+    text-align: left;
+    display: flex;
+    padding-left: 0.7em;
+    transition: all .2s linear;
+    background-color: rgb(250,181,106);
+    color: rgb(82, 82, 82);
+}
+#menu-navigation-telephone summary:hover
+{
+    background-color: rgb(250,181,106) ;
+    color: #4B0082;
+    font-size: 2.2em;
+}
+#menu-navigation-telephone ul {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5%;
+}
+#menu-navigation-telephone li>a{
+    text-decoration: none;
+    color: black;
+}
+header ul
+{
+    display: none;
+}
+details:not(section details)
+{
+    background-color: rgb(230, 230, 230);    
+}
+details li
+{
+    border-top: 1.5px solid #4B0082;
+    padding:1.5%;
+    width:fit-content;
+    border-collapse: collapse;
+    transition: all .2s ease-in;
+}
+details li>a:hover
+{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/*Fin du menu de navigation téléphone*/
+
+
+@media (min-width: 1000px) {
+/*on fait en sorte que lorsqu'on passe sur ordinateur le menu téléphone disparaisse*/
+    .logo-iut{
+        width: 50%;
+        grid-area: 1/3/2/4;
+
+    }
+    #les-grandes-lignes,#débouchés,#Le-campus,#events{
+        margin-top: 2%;
+    }
+    
+    p,ul,h2,a,img,footer{
+        margin-top: 2%;
+    }
+    p,a{
+        font-size: 1.1rem;
+    }
+    section li{
+        margin-top: 1%;
+        font-size: 1.1rem;
+    }
+    body:not(#les-grandes-lignes){
+        background-color: #eee;
+    }
+    section{
+        margin-left: 15%;
+        margin-right: 15%;
+        background-color: white ;
+    }
+   
+}
+
+/*Footer*/
+footer
+{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background-color:rgb(250,181,106);
+    text-align: center;
+}
+footer .lien,#Mails,#Numeros{
+    color: black;
+    text-decoration: none;
+    text-align: left;
+}
+#Mails a, #Mails
+{
+    text-align: right;
+}
+footer h2
+{
+    font-size: 1.5em;
+}
+footer h3
+{
+    margin-top: 0.2em;
+    margin-bottom: 0.5%;
+}
+ h2+section a:hover
+{
+    color: #4B0082;
+    text-decoration: underline;
+}
+@media (max-width: 1024px)
+{
+    footer{
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+    footer h3
+    {
+        margin-top: 1em;
+        margin-bottom: 0.5%;
+    }
+    #Mails, #Numeros, #Mails a
+    {
+        text-align: center;
+    }
+    footer a
+    {
+        margin-top: 0.5em;
+    }
+    #Mails a
+    {
+        color: #4B0082;
+        text-decoration: underline;
+    }
+}
+@media (min-width: 1024px) 
+{
+    footer
+    {   
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 2fr;
+    }
+    footer section
+    {
+        background-color:rgb(250,181,106);
+    }
+    #Mails,#Numeros
+    {
+        padding:0%;
+    }
+    footer h2
+    {
+        grid-area: 1/1/1/span 2;
+    }
+}
+/*Fin footer*/
