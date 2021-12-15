@@ -29,7 +29,7 @@ th
 	border-left: 0.07em black solid;
 	padding: 0.5em;
     border-bottom: 0.12em black solid;
-    min-width: none;
+   
 }
 td[rowspan]+td, td[rowspan]
 {
@@ -107,7 +107,7 @@ table+ul
     #débouchés tr
     {
         display:grid;
-        grid: /1fr 1fr;
+        grid-template-columns:  1fr;
     }
     #débouchés th
     {
@@ -142,9 +142,5 @@ table+ul
     {
         grid-area: 2/1/2/span 2;
     }
-
 }
 
-p li{
-    color: purple;
-}
