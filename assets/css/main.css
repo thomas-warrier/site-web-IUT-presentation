@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    line-height: 1.35em;
 }
 p,ul,h2,a,img,table{
     margin-top: 7%;
@@ -47,7 +48,9 @@ h2{
     margin-right: 5%;
     margin-left: 5%;
     text-align: center;
-    font-size: 125%;
+    font-size: 145%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
     /*ici commence le header */
@@ -149,13 +152,13 @@ header h1 {
 #menu-navigation-telephone summary:hover
 {
     background-color: rgb(250,181,106) ;
-    color: white;
+    color: #4B0082;
     font-size: 2.2em;
 }
 #menu-navigation-telephone ul {
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
-
+    padding-bottom: 5%;
 }
 #menu-navigation-telephone li>a{
     text-decoration: none;
@@ -165,7 +168,24 @@ header ul
 {
     display: none;
 }
-
+details:not(section details)
+{
+    background-color: rgb(230, 230, 230);    
+}
+details li
+{
+    border-top: 1.5px solid #4B0082;
+    padding:1.5%;
+    width:fit-content;
+    border-collapse: collapse;
+    transition: all .2s ease-in;
+}
+details li:hover
+{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #7731aa;
+}
 
 /*Fin du menu de navigation téléphone*/
 
