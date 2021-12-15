@@ -6,7 +6,6 @@
 p,ul,h2,a,img,table{
     margin-top: 7%;
 }
-
 ul,ol{
     display: flex;
 	align-items: center;
@@ -43,6 +42,11 @@ section h1{
     text-align: center;
     background-color:rgb(186,216,214);
 }
+h1
+{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
 h2{
     color:#4B0082 ;
     margin-right: 5%;
@@ -62,8 +66,9 @@ header{
 }
 header h1 {
     padding-top: 10%;
-    font-size: 1.1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(82, 82, 82);
 }
 
 /*Menu pour ordinateur*/
@@ -83,6 +88,7 @@ header h1 {
     }
     header h1{
         margin-left: 15%;
+        margin-bottom: 3%;
         font-size: 1.5rem;
     }
     header ul{
@@ -129,16 +135,6 @@ header h1 {
 /* ici ce termine le header*/
 
 /*ici commence le menu de navigation pour téléphone*/
-/*#menu-navigation-telephone summary{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 3%;
-    margin-right: 10%;
-    margin-left: 10%;
-    border: 2px solid black;
-    border-radius: 10px;
-    text-align: center;
-    background-color: rgb(250,185,163);
-}*/
 #menu-navigation-telephone summary
 {
     font-size: 2em;
@@ -147,7 +143,7 @@ header h1 {
     padding-left: 0.7em;
     transition: all .2s linear;
     background-color: rgb(250,181,106);
-    color: black;
+    color: rgb(82, 82, 82);
 }
 #menu-navigation-telephone summary:hover
 {
@@ -180,20 +176,17 @@ details li
     border-collapse: collapse;
     transition: all .2s ease-in;
 }
-details li:hover
+details li>a:hover
 {
     font-size: 1.1em;
     font-weight: bold;
-    color: #7731aa;
 }
 
 /*Fin du menu de navigation téléphone*/
 
 
-
 @media (min-width: 1000px) {
-/*on fait en sorte que lorsqu'on passe sur ordinateur le menu téléphone disparraisse*/
-  
+/*on fait en sorte que lorsqu'on passe sur ordinateur le menu téléphone disparaisse*/
     .logo-iut{
         width: 50%;
         grid-area: 1/3/2/4;
@@ -223,8 +216,6 @@ details li:hover
     }
    
 }
-
-
 
 /*Footer*/
 footer

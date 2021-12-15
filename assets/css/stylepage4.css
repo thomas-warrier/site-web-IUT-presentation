@@ -98,21 +98,13 @@ button:hover
     
 /*les adresses de la page 4*/
 
-    div
-    {
-        display:flex;
-        flex-direction: row;
-        gap: 0% 2%
-    }
     div address
     {
         background-color: rgb(250,181,106);
         padding: 1.2em;
         margin-top:1.5%;
         border-radius:0.4em;
-        width:165px;
-        display:grid;
-        grid:1fr 2fr/1fr;
+        width:190px;
         transition: all .2s ease-in;
         box-shadow: rgba(14,30,37,0.32) 0px 2px 4px 0px;
 
@@ -123,17 +115,21 @@ button:hover
         font-size: 1.07em;
         box-shadow: rgba(0,0,0,0.2) 0px 20px 30px;
     }
-    div h3
-    {
-        font-style: normal;
-        
-    }
     address:not(div address)
     {
-        
-        padding: 5%;
+        padding: 4%;
     }
-
+.lieux{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:2vw;
+}
+.lieux > div{
+    display: block;
+}
 
 @media (max-width: 1024px) {
     
@@ -159,26 +155,6 @@ button:hover
    
     /*les adresses responsive*/
 
-    div
-    {
-        display:grid;
-        grid: 1fr 1fr 1fr/1fr 1fr 1fr;
-        gap: 1% 0%;
-        margin-top: 2%;
-        
-    }
-    div address:first-child
-    {
-        grid-area: 1/2/2/3;
-    }
-    div address:nth-child(2)
-    {
-        grid-area: 2/2/3/3;
-    }
-    div address:nth-child(3)
-    {
-        grid-area: 3/2/4/3;
-    }
 }
 iframe
 {
