@@ -3,7 +3,8 @@
 	margin-left: 20%;
 }
 /*Page 3 (Le campus)*/
-#menu-rapide summary{
+#menu-rapide summary
+{
 	display:flex;
 	justify-content: center;
     margin-top: 0%;
