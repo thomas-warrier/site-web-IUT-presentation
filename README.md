@@ -22,7 +22,7 @@ Projet Site Web de Thomas Warrier et Stéphanie Agbanglanon, SAÉ semestre 1
    
    **Originalité-Créativité**
 
-   Notre travail a essentiellement XXX points de créativité :
+   Notre travail a essentiellement 5 points de créativité :
     - l'interactivité en général (surtout au survol de boutons, du menu ...)
     - l'adaptativité des tableaux
     - un design plutôt simple pour permettre à n'importe qui de ne pas se perdre tout en ayant un design chaleureux.
@@ -33,7 +33,7 @@ Projet Site Web de Thomas Warrier et Stéphanie Agbanglanon, SAÉ semestre 1
 
    ** Accessibilité et HTML et CSS valides**
 
-   Nous avons passé notre html et notre css au valideur, et nous avons aussi passé nos pages dans l'extension Wave, ce qui nous a amener à changer les couleurs de notre footer car il n'y avait pas assez de contraste.
+   Nous avons passé notre html et notre css au valideur, et nous avons aussi passé nos pages dans l'extension Wave, ce qui nous a amené à changer les couleurs de notre footer car il n'y avait pas assez de contraste.
 
    
    
@@ -48,13 +48,13 @@ Projet Site Web de Thomas Warrier et Stéphanie Agbanglanon, SAÉ semestre 1
     - lien de notre ancienne maquette : https://whimsical.com/maquette-site-iut-3vFPUEMWk4xcaX85GABPpS
     - lien de notre nouvelle maquette : https://whimsical.com/maquette-sae-web-thomas-warrier-stephanie-agbanglanon-DMR1CdRMGtVjH7WBR9cjP3
 
-   Lors de la création de notre site web nous nous sommes rendus compte que finalement notre design n'était peut-être pas le meilleur pour un site destiné principalement aux étudiants. En effet nous avons trouvé que notre maquette n'était pas assez moderne, et qu'elle ne réppondait pas très exactement aux critères de nos persona. En réponse à ce problème nous avons décidé de reprendre nos maquettes et d'épurer le design ainsi que de modifier les formes présentes sur notre site web, notamment en ajoutant plus de bordures arrondies afin d'avoir un design plus doux que de simples carrés. Nous avons aussi décidé pour nos titres de retirer le cadre car nous trouvions qu'il était en trop.
+   Lors de la création de notre site web nous nous sommes rendus compte que finalement notre design n'était peut-être pas le meilleur pour un site destiné principalement aux étudiants. En effet nous avons trouvé que notre maquette n'était pas assez moderne, et qu'elle ne répondait pas très exactement aux critères de nos persona. En réponse à ce problème nous avons décidé de reprendre nos maquettes et d'épurer le design ainsi que de modifier les formes présentes sur notre site web, notamment en ajoutant plus de bordures arrondies afin d'avoir un design plus doux que de simples carrés. Nous avons aussi décidé pour nos titres de retirer le cadre car nous trouvions qu'il était en trop.
 
 
 
    ** Utilisation de Git **
 
-   tout au long de notre travaille nous avons travaillé avec git lab,vous pourrez retrouver l'évolution de notre projet dans ce même repertoire git.
+   tout au long de notre travail nous avons travaillé avec gitlab, vous pourrez retrouver l'évolution de notre projet dans ce même repertoire git.
 
 
 
