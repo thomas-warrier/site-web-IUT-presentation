@@ -31,18 +31,18 @@ Projet Site Web de Thomas Warrier et Stéphanie Agbanglanon, SAÉ semestre 1
 
 
 
-   ** Accessibilité et HTML et CSS valides**
+   **Accessibilité et HTML et CSS valides**
 
    Nous avons passé notre html et notre css au valideur, et nous avons aussi passé nos pages dans l'extension Wave, ce qui nous a amené à changer les couleurs de notre footer car il n'y avait pas assez de contraste.
 
    
    
-   ** Formulaire **
+   **Formulaire**
    Notre formulaire est responsive et il fonctionne grâce aux informations que nous avons pu trouver sur le site de M.Champin.
 
    
    
-   ** Maquettes **
+   **Maquettes**
    
    Les maquettes originales ont été modifiées :
     - lien de notre ancienne maquette : https://whimsical.com/maquette-site-iut-3vFPUEMWk4xcaX85GABPpS
@@ -52,13 +52,13 @@ Projet Site Web de Thomas Warrier et Stéphanie Agbanglanon, SAÉ semestre 1
 
 
 
-   ** Utilisation de Git **
+   **Utilisation de Git**
 
    tout au long de notre travail nous avons travaillé avec gitlab, vous pourrez retrouver l'évolution de notre projet dans ce même repertoire git.
 
 
 
-   ** Mise en production sur le serveur de l'IUT ou via la forge sur le serveur de Lyon 1 **
+   **Mise en production sur le serveur de l'IUT ou via la forge sur le serveur de Lyon 1**
 
    Notre projet est hébergé par le serveur de l'IUT : https://iutdoua-web.univ-lyon1.fr/~p2112191/projetweb/
    et sur la forge de Lyon 1 : http://p2112191.pages.univ-lyon1.fr/pweb
