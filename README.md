@@ -3,7 +3,7 @@
 Projet Site Web de Thomas Warrier et Stéphanie Agbanglanon, SAÉ semestre 1
 
 
-   ** Adéquation avec la cible **
+   **Adéquation avec la cible**
 
    Comme spécifié sur lors de la création de nos persona, notre site répon en premier lieu aux besoins d'un lycéen/futur étudiant qui s'intéresse à l'IUT et qui souhaite s'informer précisément sur ce qu'est le BUT Informatique sur le site de Villeurbanne Doua.
    Pour répondre à ses besoins et exigences spécifiques, nous avons créé des pages 
@@ -19,7 +19,7 @@ Projet Site Web de Thomas Warrier et Stéphanie Agbanglanon, SAÉ semestre 1
 
    
    
-   ** Originalité-Créativité **
+   **Originalité-Créativité**
 
    Notre travail a essentiellement XXX points de créativité :
     - l'interactivité en général (surtout au survol de boutons, du menu ...)
@@ -36,12 +36,12 @@ Projet Site Web de Thomas Warrier et Stéphanie Agbanglanon, SAÉ semestre 1
 
    
    
-   ** formulaire **
+   **Formulaire**
    Notre formulaire est responsive et il fonctionne grace aux informations que nous avons pu trouver sur le site de M.Champin.
 
    
    
-   ** Maquettes **
+   **Maquettes**
    
    Les maquettes originales ont été modifiées car:
     -
@@ -51,13 +51,13 @@ Projet Site Web de Thomas Warrier et Stéphanie Agbanglanon, SAÉ semestre 1
 
    Lors de la création de notre site web nous nous sommes rendu compte que finalement notre design n'étais peu être pas le meilleur pour un site destiné principalement au étudiant. En effet nous avons trouver que notre maquette n'était pas asser moderne, et qu'elle ne réppondait pas au critére de nos persona. En réponse a ce probléme nous avons décider de reprendre notre maquette et d'épurée sont design ainsi que modifié les formes présente sur notre site web,notement en ajoutant plus de border arrondis afin d'avoir d'avoir un design plus doux que de simple carré. et nous avons aussi décidés pour nos titre de retiré le cadre car nous trouvions que c'était en trop.
 
-   ** utilisation de Git**
+   **utilisation de Git**
    tout au long de notre travaille nous avons travaillé avec git lab,vous pourrez retrouver l'évolution de notre projet dans ce même repertoire git.
 
-    ** Mise en production sur le serveur de l'IUT ou via la forge sur le serveur de Lyon 1 **
+   **Mise en production sur le serveur de l'IUT ou via la forge sur le serveur de Lyon 1**
 
-    Notre projet est hébergé par le serveur de l'IUT : https://iutdoua-web.univ-lyon1.fr/~p2112191/projetweb/
-    et sur la forge de Lyon 1 : http://p2112191.pages.univ-lyon1.fr/pweb
+   Notre projet est hébergé par le serveur de l'IUT : https://iutdoua-web.univ-lyon1.fr/~p2112191/projetweb/
+   et sur la forge de Lyon 1 : http://p2112191.pages.univ-lyon1.fr/pweb
 
 
 
